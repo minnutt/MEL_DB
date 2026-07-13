@@ -1,4 +1,4 @@
-# STQC DataVault — SRF Manager
+# STQC DataVault — SRF Manager (TT Minnu)
 
 Full-stack SRF (Sample Registration Form) management system.
 
