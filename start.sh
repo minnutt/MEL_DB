@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+cd "$(dirname "$0")"
+if [ ! -d node_modules ]; then
+  echo "Installing dependencies (only 'pg' is required)…"
+  npm install
+fi
+exec node server.js

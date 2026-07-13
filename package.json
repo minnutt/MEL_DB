@@ -1,0 +1,15 @@
+{
+  "name": "datavault-backend",
+  "version": "1.0.0",
+  "description": "DataVault Node.js backend connected to meldb PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup:db": "node init-db.js",
+    "start:windows": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
